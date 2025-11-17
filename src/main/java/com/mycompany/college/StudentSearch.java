@@ -191,7 +191,7 @@ public class StudentSearch extends javax.swing.JFrame {
             //Load Driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             //create connection
-            Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/college","root","saurabh03052@/5");
+            Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/college","root","saurabh");
             //create Query
             String query="SELECT * FROM student";
             PreparedStatement pstmt= con.prepareStatement(query);
@@ -250,7 +250,7 @@ public class StudentSearch extends javax.swing.JFrame {
 
         // Create Connection
         Connection con = DriverManager.getConnection(
-                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh03052@/5"
+                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh"
         );
 
         String query = "SELECT * FROM student WHERE Rollnumber=?";
