@@ -209,7 +209,7 @@ public class DeleteStudent extends javax.swing.JFrame {
 
         // Create Connection
         Connection con = DriverManager.getConnection(
-                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh03052@/5"
+                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh"
         );
 
         String query = "SELECT * FROM student WHERE Rollnumber=?";
@@ -260,7 +260,7 @@ public class DeleteStudent extends javax.swing.JFrame {
 
         // Create Connection
         Connection con = DriverManager.getConnection(
-                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh03052@/5"  // apna password yaha lagana
+                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh"  // apna password yaha lagana
         );
 
         // Query
