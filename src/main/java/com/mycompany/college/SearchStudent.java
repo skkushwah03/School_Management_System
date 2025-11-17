@@ -211,7 +211,7 @@ public class SearchStudent extends javax.swing.JFrame {
 
         // Create Connection
         Connection con = DriverManager.getConnection(
-                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh03052@/5"
+                "jdbc:mysql://127.0.0.1:3306/college","root","saurabh"
         );
 
         String query = "SELECT * FROM student WHERE Rollnumber=?";
