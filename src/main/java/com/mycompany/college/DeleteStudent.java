@@ -286,7 +286,7 @@ public class DeleteStudent extends javax.swing.JFrame {
             //Load Driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             //create connection
-            Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/college","root","saurabh03052@/5");
+            Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/college","root","saurabh");
             //create Query
             String query="SELECT * FROM student";
             PreparedStatement pstmt= con.prepareStatement(query);
