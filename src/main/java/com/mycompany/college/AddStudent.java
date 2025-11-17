@@ -204,7 +204,7 @@ public class AddStudent extends javax.swing.JFrame {
         Connection con = DriverManager.getConnection(
                 "jdbc:mysql://127.0.0.1:3306/college",
                 "root",
-                "saurabh03052@/5"
+                "saurabh"
         );
 
         // STEP 1 → Check if Roll Number already exists
