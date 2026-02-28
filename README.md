@@ -6,7 +6,7 @@ A Java-based Desktop Application designed to manage student records efficiently.
 
 The Student Management System is built to simplify the process of managing student information in schools or colleges. It allows administrators to add, search, update, and delete student records seamlessly.
 
-This project demonstrates:
+This project demonstrates:     
 
 Java GUI development using Forms
 
